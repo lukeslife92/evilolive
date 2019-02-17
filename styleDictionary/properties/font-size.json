@@ -1,0 +1,28 @@
+{
+  "size": {
+    "xxxl": {
+      "value": "34px"
+    },
+    "xxl": {
+      "value": "48px"
+    },
+    "xl": {
+      "value": "36px"
+    },
+    "l": {
+      "value": "24px"
+    },
+    "m": {
+      "value": "16px"
+    },
+    "s": {
+      "value": "13px"
+    },
+    "xs": {
+      "value": "11px"
+    },
+    "xxs": {
+      "value": "9px"
+    }
+  }
+}

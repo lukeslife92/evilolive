@@ -1,0 +1,21 @@
+#
+# MEDIA QUERY TOKENS
+# Use these tokens to set media query width ranges.
+#
+
+props:
+  media_query_xs:
+    value: "(max-width: 900px)"
+  media_query_s:
+    value: "(max-width: 1100px)"
+  media_query_m:
+    value: "(max-width: 1300px)"
+  media_query_l:
+    value: "(max-width: 1550px)"
+  media_query_xl:
+    value: "(max-width: 1800px)"
+  media_query_xxl:
+    value: "(max-width: 1920px)"
+global:
+  type: ...
+  category: media-query

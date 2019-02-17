@@ -1,0 +1,11 @@
+#
+# TRANSITION TOKENS
+# Use these tokens for animation types.
+#
+
+props:
+  cubic:
+    value: "cubic-bezier(0.25, 0.8, 0.25, 1)"
+global:
+  type: number
+  category: transition

@@ -1,0 +1,7 @@
+{
+  "asset": {
+    "image": {
+      "logo": { "value": "src/assets/images/logo.png" }
+    }
+  }
+}

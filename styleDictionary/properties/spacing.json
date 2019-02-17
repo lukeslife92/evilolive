@@ -1,0 +1,28 @@
+{
+  "space": {
+    "xs": {
+      "value": "5px",
+      "comment": "Extra Small"
+    },
+    "s": {
+      "value": "10px",
+      "comment": "Small"
+    },
+    "m": {
+      "value": "20px",
+      "comment": "Medium"
+    },
+    "l": {
+      "value": "30px",
+      "comment": "Large"
+    },
+    "xl": {
+      "value": "40px",
+      "comment": "Extra Large"
+    },
+    "xxl": {
+      "value": "50px",
+      "comment": "Extra Extra Large"
+    }
+  }
+}

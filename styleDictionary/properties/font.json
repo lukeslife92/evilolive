@@ -1,0 +1,36 @@
+{
+  "font": {
+    "heading": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "comment": "Comment"
+    },
+    "text": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "comment": "Comment"
+    },
+    "family": {
+      "base": {
+        "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+        "comment": "Comment"
+      },
+      "code": {
+        "value": "source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace",
+        "comment": "Comment"
+      }
+    }
+  },
+  "weight": {
+    "bold": {
+      "value": "700"
+    },
+    "semi_bold": {
+      "value": "600"
+    },
+    "normal": {
+      "value": "400"
+    },
+    "light": {
+      "value": "300"
+    }
+  }
+}
