@@ -76,7 +76,7 @@ export default {
   }
 }
 .logo #logo-evil {
-  color: set-text-color($color-vermilion, $color-white);
+  color: set-text-color($color-cloud, $color-rich-black);
 }
 
 .logo #logo-flip {
