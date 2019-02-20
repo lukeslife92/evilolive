@@ -1,0 +1,15 @@
+  
+{
+  "props": {
+    "duration_quickly": {
+      "value": "0.08s"
+    },
+    "duration_slowly": {
+      "value": "0.3s"
+    }
+  },
+  "global": {
+    "category": "time",
+    "type": "number"
+  }
+}

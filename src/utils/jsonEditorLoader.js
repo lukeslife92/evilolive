@@ -1,0 +1,16 @@
+export default {
+  border: "@/tokens/border-radius",
+  box: "@/tokens/box-shadow",
+  color: "@/tokens/color",
+  font: "@/tokens/font-size",
+  font: "@/tokens/font",
+  letter: "@/tokens/letter-spacing",
+  line: "src/tokens/line-height",
+  media: "@/tokens/media-query",
+  opacity: "@/tokens/opacity",
+  size: "@/tokens/size",
+  spacing: "@/tokens/spacing",
+  timing: "@/tokens/timing",
+  transitions: "@/tokens/transitions",
+  zIndex: "@/tokens/z-index",
+}

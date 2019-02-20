@@ -1,0 +1,20 @@
+{
+  "props": [ 
+      {
+        "name": "line_height_m",
+        "value": "2"
+      },
+      {
+        "name": "line_height_s",
+        "value": "1.5"
+      },
+      {
+        "name": "line_height_xs",
+        "value": "1"
+      }
+  ],
+  "global": {
+    "category": "line-height",
+    "type": "number"
+  }
+}

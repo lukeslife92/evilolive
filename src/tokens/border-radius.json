@@ -1,0 +1,23 @@
+{
+  "props": {
+    "radius_default": {
+      "value": "3px"
+    },
+    "radius_s": {
+      "value": "2px"
+    },
+    "radius_l": {
+      "value": "8px"
+    },
+    "radius_xl": {
+      "value": "20px"
+    },
+    "radius_circle": {
+      "value": "50%"
+    }
+  },
+  "global": {
+    "category": "border-radius",
+    "type": "number"
+  }
+}

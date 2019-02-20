@@ -1,5 +1,6 @@
 <template>
   <div class="all-tokens">
+    <EParagraph>{{ eTokens.imports }}</EParagraph>
     <table>
       <thead>
         <tr>
@@ -134,6 +135,7 @@
 <script>
 import designTokens from "@/assets/tokens/tokens.raw.json"
 import commonTokens from "@/assets/tokens/tokens.common.js"
+import editTokens from "../../../src/tokens/tokens.json"
 import orderBy from "lodash/orderBy"
 
 /**
@@ -143,7 +145,7 @@ import orderBy from "lodash/orderBy"
  * [/src/tokens/](https://github.com/viljamis/vue-design-system/blob/master/src/tokens).
  */
 export default {
-  name: "TokensAll",
+  name: "TokensEdit",
   status: "under-review",
   release: "1.0.0",
   methods: {
@@ -155,6 +157,7 @@ export default {
   },
   data() {
     return {
+      eTokens: editTokens,
       cTokens: commonTokens,
       tokens: designTokens.props,
     }
@@ -265,6 +268,6 @@ export default {
 
 <docs>
   ```jsx
-  <TokensAll/>
+  <TokensEdit/>
   ```
 </docs>

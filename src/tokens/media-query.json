@@ -1,0 +1,33 @@
+
+{
+  "props": {
+    "media_query_xs": {
+      "value": "(min-width:320px)",
+      "comment": "Smartphones, portrait iPhone, portrait 480x320 phones (Android)"
+    },
+    "media_query_s": {
+      "value": "(min-width:480px)",
+      "comment": "Smartphones, Android phones, landscape iPhone"
+    },
+    "media_query_m": {
+      "value": "(min-width:600px)",
+      "comment": "Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)"
+    },
+    "media_query_l": {
+      "value": "(min-width:801px)",
+      "comment": "Tablet, landscape iPad, lo-res laptops and desktops"
+    },
+    "media_query_xl": {
+      "value": "(min-width:1025px)",
+      "comment": "Hi-res laptops and desktops"
+    },
+    "media_query_xxl": {
+      "value": "(min-width: 1920px)",
+      "comment": "Higher-res laptops and desktops"
+    }
+  },
+  "global": {
+    "category": "media-query",
+    "type": "..."
+  }
+}

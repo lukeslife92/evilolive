@@ -23,8 +23,8 @@
     "node:build:system": "node ./build/build-system.js",
     "styleguide": "vue-styleguidist server --config ./config/docs.config.js",
     "styleguide:build": "vue-styleguidist build --config ./config/docs.config.js",
-    "theo": "theo ./src/tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json,common.js --dest ./src/assets/tokens",
-    "theo:onchange": "onchange \"./src/tokens/*.yml\" -- npm run theo",
+    "theo": "theo ./src/tokens/tokens.json --transform web --format map.scss,scss,raw.json,json,common.js --dest ./src/assets/tokens",
+    "theo:onchange": "onchange \"./src/tokens/*.json\" -- npm run theo",
     "test": "npm-run-all theo unit"
   },
   "husky": {
@@ -106,17 +106,21 @@
     }
   },
   "dependencies": {
+    "@willsoto/vue-pickr": "^0.2.0",
     "lodash": "^4.17.11",
     "mini-css-extract-plugin": "^0.4.5",
+    "pickr-widget": "^0.3.5",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-safe-parser": "^4.0.1",
     "postcss-url": "^8.0.0",
     "tinycolor2": "^1.4.1",
     "vue": "^2.5.17",
+    "vue-json-ui-editor": "^1.0.0",
     "vue-lodash": "^2.0.0",
     "vue-meta": "^1.5.6",
     "vue-router": "^3.0.2",
+    "vuedraggable": "^2.17.0",
     "vuex": "^3.0.1",
     "webfontloader": "^1.6.28"
   },
