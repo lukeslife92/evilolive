@@ -179,6 +179,7 @@ export default {
     <EButton variation="primary" size="medium">Medium</EButton>
     <EButton variation="primary" size="small">Small</EButton>
     <br />
+    <br />
     <EButton>Default Button</EButton>
     <EButton state="hover">:hover</EButton>
     <EButton state="active">:active</EButton>

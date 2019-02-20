@@ -1,5 +1,5 @@
 <template>
-  <component :is="type" class="wrapper"> <slot /> </component>
+  <component :is="type" :class="['wrapper', variation]"> <slot /> </component>
 </template>
 
 <script>
@@ -19,6 +19,17 @@ export default {
       type: String,
       default: "div",
     },
+    /**
+     * Style variation to give additional meaning.
+     * `default, small, medium, large, extra-large`
+     */
+    variation: {
+      type: String,
+      default: "default",
+      validator: value => {
+        return value.match(/(default|small|medium|large|extra-large)/)
+      },
+    },
   },
 }
 </script>
@@ -26,14 +37,22 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   @include reset;
-  @include inset-space($space-l);
   font-family: $font-text;
   font-weight: $weight-normal;
   font-size: $size-m;
   line-height: $line-height-m;
   width: 100%;
+}
+.default {
+  @include inset-space($space-xl);
   @media #{$media-query-l} {
     @include inset-space($space-xl);
+  }
+}
+.small {
+  @include inset-space($space-s);
+  @media #{$media-query-l} {
+    @include inset-space($space-s);
   }
 }
 </style>

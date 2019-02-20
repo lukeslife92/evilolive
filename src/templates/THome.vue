@@ -13,7 +13,7 @@
     />
     <EWrapper>
       <EHeading>Home</EHeading>
-      <EParagraph>
+      <EParagraph contenteditable>
         <a href="https://vueds.com">EvilolivE</a> is an open-source tool for building design systems
         with Vue.js. It provides you and your team a set of organized tools, patterns &amp;
         practices. It works as the foundation for your application development.

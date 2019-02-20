@@ -1,6 +1,7 @@
 <template>
   <component :is="type" class="nav">
     <a
+      draggable="false"
       v-for="(item, index) in navItems"
       :key="index"
       :href="item.href"
@@ -64,25 +65,25 @@ $color-nav-link-active: set-text-color($color-silver, $color-white);
 
 .nav {
   @include reset;
-  @include stack-space($space-m);
-
+  @include prevent-user-select;
+  @include stack-space($space-l);
+  display: flex;
   font-family: $font-text;
   font-size: $size-s;
   line-height: $line-height-m;
   color: $color-white;
-  text-align: right;
-  width: 100%;
   @media #{$media-query-xxl} {
+    float: right;
   }
   @media #{$media-query-m} {
-    text-align: center;
+    justify-content: center;
   }
   a {
     color: $color-nav-link;
     padding: $space-xs 0;
     margin: 0 $space-xs;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     &:hover {
       color: $color-nav-link-active;
     }
@@ -98,10 +99,10 @@ $color-nav-link-active: set-text-color($color-silver, $color-white);
 <docs>
   ```jsx
   <PNavBar active="Dashboard" :navItems="[
-    {name: 'Dashboard', component: 'Dashboard', href: '/Patterns/PNavBar'},
-    {name: 'Posts', component: 'Posts', href: '/Patterns/PNavBar'},
-    {name: 'Users', component: 'Users', href: '/Patterns/PNavBar'},
-    {name: 'Settings', component: 'Settings', href: '/Patterns/PNavBar'}
+    {name: 'Dashboard', component: 'Dashboard', href: '/#/Patterns/PNavBar'},
+    {name: 'Posts', component: 'Posts', href: '/#/Patterns/PNavBar'},
+    {name: 'Users', component: 'Users', href: '/#/Patterns/PNavBar'},
+    {name: 'Settings', component: 'Settings', href: '/#/Patterns/PNavBar'}
   ]"/>
   ```
 </docs>
